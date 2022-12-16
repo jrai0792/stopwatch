@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+
+.main-content {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  padding: 20px;
+  margin: -25px 0 0 -25px;
+}
+
+.time-container {
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.time {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+#btn-start {
+  background-color: green;
+}
+
+#btn-stop {
+  background-color: red;
+}
+
+#btn-reset {
+  background-color: darkgray;
+}
